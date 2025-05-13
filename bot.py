@@ -19,7 +19,7 @@ async def send_salem(sms:types.Message):
 async def send_info(sms:types.Message):
     await sms.reply(text='bul menin botim')
 
-
+#jcdjc
 @dp.message(Command('suwret'))
 async def send_suwret(sms:types.Message):
     await sms.answer_photo(
